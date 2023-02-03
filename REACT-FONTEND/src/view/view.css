@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* LOGIN FORM SECTION  */
+    .form-container{
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .form-wrapper{
+        background: #FFFFFF;
+        border: 1px solid rgb(215, 213, 211);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    form{
+        width: 360px;
+        position: relative;
+        z-index: 1;
+        /* background: #FFFFFF; */
+        max-width: 360px;
+        padding: 34px;
+        box-shadow: 0 0 2px 0 rgba(0, 0, 0, 0.1);
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    form > input{
+        background: rgb(228, 228, 234);
+        /* padding: 10px; */
+        width: 100%;
+        height: 40px;
+        border: 1px solid rgb(251, 251, 250);
+    }
+    form > input::placeholder{
+        padding: 10px;
+    }
+   
+    form > .btn-login{
+        opacity: 0.9;
+        background: #8034e9;
+        height: 40px;
+        color: white;
+        border: 1px solid #8034e9;
+    }
+    form >p{
+        padding: 10px;
+    }
+    input:focus{
+        outline:1.5px solid #8034e9;
+    }
+    form .title {
+        font-size: 20px;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+/* END OF LOGIN FORM SECTION  */
